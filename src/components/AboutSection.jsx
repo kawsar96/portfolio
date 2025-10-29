@@ -1,0 +1,90 @@
+import { Briefcase, Code, User } from "lucide-react";
+export const AboutSection = () => {
+  return (
+    <section id="about" className="py-24 px-4 relative">
+      <div className="container mx-auto max-w-5xl">
+        <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
+          About <span className="text-primary"> Me</span>
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+          <div className="space-y-6">
+            <h3 className="text-2xl font-semibold">
+              Passionate Software Developer
+            </h3>
+            <p className="text-muted-foreground">
+              dedicated Software Developer with 3 years of practical experience
+              in real estate, e-commerce, and education projects. I hold a
+              Master's degree in Software Engineering from Concordia University,
+              Montreal.
+            </p>
+            <p className="text-muted-foreground">
+              I specialize in building dynamic, user-focused applications using
+              Laravel, Node.js, JavaScript, React, and Java. Driven by curiosity
+              and creativity, I love turning ideas into efficient, scalable
+              digital solutions that make a real impact.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
+              <a href="#contact" className="cosmic-button">
+                Get In Touch
+              </a>
+              <a
+                href=""
+                className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
+              >
+                Download CV
+              </a>
+            </div>
+          </div>
+          <div className="grid grid-cols-1 gap-6">
+            <div className="gradient-border p-6 card-hover">
+              <div className="flex items-start gap-4">
+                <div className="p-3 rounded-full bg-primary/10">
+                  <Code className="h-6 w-6 text-primary" />
+                </div>
+                <div className="text-left">
+                  <h4 className="font-semibold text-lg">
+                    {" "}
+                    Software development
+                  </h4>
+                  <p className="text-muted-foreground">
+                    Designing and building reliable software solutions that
+                    combine functionality with great user experience.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="gradient-border p-6 card-hover">
+              <div className="flex items-start gap-4">
+                <div className="p-3 rounded-full bg-primary/10">
+                  <User className="h-6 w-6 text-primary" />
+                </div>
+                <div className="text-left">
+                  <h4 className="font-semibold text-lg"> Data Management</h4>
+                  <p className="text-muted-foreground">
+                    Designing and optimizing databases to ensure efficient data
+                    storage, security, and scalability.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="gradient-border p-6 card-hover">
+              <div className="flex items-start gap-4">
+                <div className="p-3 rounded-full bg-primary/10">
+                  <Briefcase className="h-6 w-6 text-primary" />
+                </div>
+                <div className="text-left">
+                  <h4 className="font-semibold text-lg"> Project Management</h4>
+                  <p className="text-muted-foreground">
+                    Leading projects using Agile methodologies to ensure
+                    collaboration, adaptability, and timely delivery of quality
+                    solutions.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
