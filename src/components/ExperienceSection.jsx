@@ -3,7 +3,7 @@ export const ExperienceSection = () => {
     {
       role: "Software Developer",
       company: "B.A.N.G.L.A",
-      period: "Montreal | Sep 2024 – Present",
+      period: "Montreal | Sep 2024 - Present",
       description:
         "Developing content-rich magazine applications, improving delivery speed and administrative control for cultural organizations.",
       responsibilities: [
@@ -14,7 +14,7 @@ export const ExperienceSection = () => {
     {
       role: "Software Developer",
       company: "Furnitex",
-      period: "Dhaka | Sep 2024 – Present",
+      period: "Dhaka | Sep 2024 - Present",
       description:
         "Developing scalable and modular backend solutions for e-commerce platforms, focusing on performance and user experience.",
       responsibilities: [
@@ -25,14 +25,14 @@ export const ExperienceSection = () => {
     {
       role: "Web Developer",
       company: "Digital IT Gallery",
-      period: "Dhaka | Dec 2020 – Dec 2021",
+      period: "Dhaka | Dec 2020 - Dec 2021",
       description:
         "Built dynamic web applications and platforms for rental and e-commerce services, focusing on responsive design and optimized backend performance.",
       responsibilities: [
         "Increased user engagement by 25% by building a dynamic rental platform with Laravel and JavaScript, featuring responsive layouts and AI-driven recommendations.",
         "Optimized MySQL search queries, improving performance by 40%.",
         "Boosted e-commerce customer retention by 20% by enhancing WordPress features and streamlining user journeys.",
-        "Developed and deployed the company’s website 50% faster using Laravel, achieving page load times under 2 seconds.",
+        "Developed and deployed the company's website 50% faster using Laravel, achieving page load times under 2 seconds.",
         "Reduced development time by 30% with Git version control and thorough documentation.",
         "Created responsive UIs with HTML, CSS, and JavaScript, increasing user engagement by 20%.",
         "Delivered 99% bug-free code through testing with Selenium, JUnit, Postman, and UAT.",
@@ -41,7 +41,7 @@ export const ExperienceSection = () => {
     {
       role: "Web Developer",
       company: "Furnitex",
-      period: "Dhaka | Mar 2020 – Nov 2020",
+      period: "Dhaka | Mar 2020 - Nov 2020",
       description:
         "Maintained and enhanced company websites and digital presence, improving engagement and ensuring responsive design.",
       responsibilities: [
@@ -53,7 +53,7 @@ export const ExperienceSection = () => {
     {
       role: "Web Application Developer",
       company: "Innovation IT Institute",
-      period: "Dhaka | Sep 2019 – Feb 2020",
+      period: "Dhaka | Sep 2019 - Feb 2020",
       description:
         "Developed internal management systems and company website with Laravel and PHP, focusing on user-centric design and seamless functionality.",
       responsibilities: [
