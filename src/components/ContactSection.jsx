@@ -151,6 +151,7 @@ export const ContactSection = () => {
                   "cosmic-button w-full flex items-center justify-center gap-2"
                 )}
               >
+                Send Message
                 <Send size={16} />
               </button>
             </form>
