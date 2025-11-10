@@ -20,7 +20,7 @@ export const HeroSection = () => {
             </span>
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-            Software Developer with 2+ years of experience in real estate,
+            Software Developer with 3 years of experience in real estate,
             e-commerce, and education. Master's in Software Engineering from
             Concordia University. Skilled in Laravel, Node.js, JavaScript, Java,
             and React, with a focus on building user-centered, efficient
