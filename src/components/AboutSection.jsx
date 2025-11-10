@@ -12,16 +12,17 @@ export const AboutSection = () => {
               Passionate Software Developer
             </h3>
             <p className="text-muted-foreground">
-              dedicated Software Developer with 3 years of practical experience
-              in real estate, e-commerce, and education projects. I hold a
-              Master's degree in Software Engineering from Concordia University,
-              Montreal.
+              I'm a problem-solver who enjoys bridging technology and design to
+              create intuitive user experiences. My approach centers on writing
+              clean, maintainable code and continuously learning new tools to
+              improve efficiency and impact.
             </p>
             <p className="text-muted-foreground">
-              I specialize in building dynamic, user-focused applications using
-              Laravel, Node.js, JavaScript, React, and Java. Driven by curiosity
-              and creativity, I love turning ideas into efficient, scalable
-              digital solutions that make a real impact.
+              I believe that great software is more than just functionality —
+              it's about clarity, collaboration, and delivering value that
+              lasts. Whether optimizing backend performance or refining
+              front-end interactions, I focus on building solutions that feel
+              effortless for users and teams alike.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
               <a href="#contact" className="cosmic-button">
