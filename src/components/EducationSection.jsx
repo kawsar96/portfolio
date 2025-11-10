@@ -11,7 +11,7 @@ export const EducationSection = () => {
         </p>
 
         <div className="space-y-8">
-          <div className="bg-card p-6 rounded-lg shadow-sm border border-border">
+          <div className="bg-card p-6 rounded-lg shadow-sm border border-border card-hover transition-all duration-300">
             <h3 className="text-xl font-semibold">
               Master of Engineering, Software Engineering
             </h3>
@@ -26,7 +26,7 @@ export const EducationSection = () => {
             </p>
           </div>
 
-          <div className="bg-card p-6 rounded-lg shadow-sm border border-border">
+          <div className="bg-card p-6 rounded-lg shadow-sm border border-border card-hover transition-all duration-300">
             <h3 className="text-xl font-semibold">
               Bachelor of Science, Computer Science & Engineering
             </h3>
