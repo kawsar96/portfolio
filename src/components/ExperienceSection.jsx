@@ -9,17 +9,21 @@ export const ExperienceSection = () => {
       responsibilities: [
         "Developed a content-rich magazine platform using Node.js (Express), improving article delivery speed and admin control features.",
         "Minimized page load time by 40% by applying lazy loading and optimized image delivery.",
+        "Designed and integrated RESTful APIs for dynamic content management and user interactions.",
+        "Collaborated with designers and content managers to ensure seamless UI/UX and content publishing workflow.",
       ],
     },
     {
-      role: "Software Developer",
+      role: "Software Developer (Contract-based)",
       company: "Furnitex",
-      period: "Dhaka | Sep 2024 - Present",
+      period: "Dhaka | Sep 2024 - Jan 2025",
       description:
         "Developing scalable and modular backend solutions for e-commerce platforms, focusing on performance and user experience.",
       responsibilities: [
         "Engineered an e-commerce platform using Spring Boot, delivering a scalable, modular backend architecture.",
         "Reduced server response time by 35% by optimizing controller logic and SQL queries, resulting in a smoother user experience.",
+        "Developed product recommendation and search features using SQL and caching strategies. ",
+        "Collaborated in Agile sprints, performing code reviews and deploying updates via Docker and AWS EC2. ",
       ],
     },
     {
