@@ -35,10 +35,15 @@ export const Navbar = () => {
           className="text-xl font-bold text-primary flex items-center"
           href="#hero"
         >
-          <span className="relative z-10">
+          <span className="relative z-10 text-lg sm:text-xl md:text-2xl font-semibold">
             <span className="text-glow text-foreground">Kawsar Ahmed</span>{" "}
             Portfolio
           </span>
+
+          {/* <span className="relative z-10 text-lg sm:text-xl md:text-2xl font-semibold">
+  <span className="text-glow text-foreground">Kawsar Ahmed</span>{" "}
+  <span className="text-foreground/90">Portfolio</span>
+</span> */}
         </a>
 
         {/* desktop */}

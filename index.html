@@ -1,6 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script>
+      (() => {
+        const storedTheme = localStorage.getItem("theme");
+        if (storedTheme === "light") {
+          document.documentElement.classList.remove("dark");
+        } else {
+          // Default is dark
+          document.documentElement.classList.add("dark");
+          localStorage.setItem("theme", "dark");
+        }
+      })();
+    </script>
+
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
