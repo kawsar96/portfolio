@@ -35,7 +35,7 @@ export const Navbar = () => {
           className="text-xl font-bold text-primary flex items-center"
           href="#hero"
         >
-          <span className="relative z-10 text-xs sm:text-sm md:text-2xl font-semibold">
+          <span className="relative z-10 text-sm sm:text-lg md:text-2xl font-semibold">
             <span className="text-glow text-foreground">Kawsar Ahmed</span>{" "}
             Portfolio
           </span>
@@ -68,7 +68,7 @@ export const Navbar = () => {
         </button>
         <div
           className={cn(
-            "fixed inset-0 bg-background/95 backdroup-blur-md z-40 flex flex-col items-center justify-center",
+            "fixed inset-0 bg-background/95 backdrop-blur-md z-40 flex flex-col items-center justify-center",
             "transition-all duration-300 md:hidden",
             isMenuOpen
               ? "opacity-100 pointer-events-auto"
