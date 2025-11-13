@@ -49,7 +49,7 @@ export const HeroSection = () => {
           <div className="relative rounded-full border-4 border-primary/40 shadow-xl hover:shadow-primary/40 transition-all duration-500 animate-float">
             <div className="bg-card/50 backdrop-blur-sm p-2 rounded-full">
               <img
-                src="/public/images/kawsar.png" // 👈 replace with your image path
+                src="/images/kawsar.png" // 👈 replace with your image path
                 alt="Kawsar Ahmed"
                 className="w-64 h-64 md:w-80 md:h-80 object-cover rounded-full border-2 border-primary/30"
               />
