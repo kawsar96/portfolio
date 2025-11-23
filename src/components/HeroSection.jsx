@@ -37,7 +37,11 @@ export const HeroSection = () => {
             <a
               href="/Kawsar_Ahmed_CV.pdf"
               download="Kawsar_Ahmed_CV.pdf"
-              className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
+              className="px-6 py-2 rounded-full border border-primary text-primary 
+             transition-all duration-300 
+             hover:bg-primary hover:text-background 
+             hover:shadow-lg hover:shadow-primary/40 
+             active:scale-95"
             >
               Download CV
             </a>
